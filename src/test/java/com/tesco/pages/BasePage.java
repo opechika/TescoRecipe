@@ -31,15 +31,5 @@ public class BasePage extends CommonLibs
         select.selectByIndex(index);
     }
 
-    public void scrollElementToView(WebElement element)
-    {
-        js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView();", element);
-    }
 
-    public void scrollDownOnAPage()
-    {
-        js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1000)");
-    }
 }

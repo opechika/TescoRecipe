@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-02T15:53:31.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11231302000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Customer can browse chesse souffle",
+        "description": "",
+        "id": "search-by-browsing;customer-can-browse-chesse-souffle",
+        "after": [
+          {
+            "result": {
+              "duration": 1323934300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2265318500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to Tesco homepage",
+            "match": {
+              "location": "RecipeBrowseSteps.tesco_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341570500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Recipes tab",
+            "match": {
+              "location": "RecipeBrowseSteps.i_click_on_the_Recipes_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3946002600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Recipe inspiration",
+            "match": {
+              "location": "RecipeBrowseSteps.i_click_on_the_Recipe_inspiration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865520200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Step by step recipes link",
+            "match": {
+              "location": "RecipeBrowseSteps.i_click_on_Step_by_step_recipes_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1626185500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on How to make chesse souffle link",
+            "match": {
+              "location": "RecipeBrowseSteps.i_click_on_How_to_make_chesse_souffle_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135475000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a step to step guide of how to make chesse souffle is displayed",
+            "match": {
+              "location": "RecipeBrowseSteps.a_step_to_step_guide_of_how_to_make_chesse_souffle_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search By Browsing",
+    "description": "",
+    "id": "search-by-browsing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/tesco/features/CustomerCanBrowseForRecipe.feature",
+    "tags": []
+  }
+]
